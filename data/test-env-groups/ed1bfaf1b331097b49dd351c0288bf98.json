@@ -1,0 +1,1 @@
+{"id":"ed1bfaf1b331097b49dd351c0288bf98","fullName":"authentication-boundary.test.ts:8:7","name":"protects Client Area and Backoffice after logout, refresh, back, and direct access","status":"passed","testResultsByEnv":{"default":"5959aaf02524b1e2883191e36da9a6c6"}}
