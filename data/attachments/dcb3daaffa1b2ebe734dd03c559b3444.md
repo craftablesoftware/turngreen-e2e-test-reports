@@ -1,0 +1,206 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - link "Ir para a página inicial" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - img "Elergone logo" [ref=e6]
+    - button "Menu de perfil de Rodrigo Silva" [ref=e9] [cursor=pointer]:
+      - generic [ref=e11]: RS
+      - generic [ref=e12]: Rodrigo Silva
+      - img [ref=e13]
+  - generic [ref=e14]:
+    - generic [ref=e15]:
+      - button "Página Inicial" [ref=e17] [cursor=pointer]:
+        - generic: Página Inicial
+      - button "Organizações Expandir" [ref=e20] [cursor=pointer]:
+        - generic: Organizações
+        - img "Expandir"
+      - generic [ref=e22]:
+        - button "Serviços Expandir" [ref=e23] [cursor=pointer]:
+          - generic: Serviços
+          - img "Expandir"
+        - generic:
+          - generic:
+            - button "Oportunidades":
+              - generic: Oportunidades
+            - button "Propostas":
+              - generic: Propostas
+            - button "Contratos":
+              - generic: Contratos
+      - button "Gestão de Utilizadores" [ref=e26] [cursor=pointer]:
+        - generic: Gestão de Utilizadores
+      - button "Configurações Expandir" [ref=e29] [cursor=pointer]:
+        - generic: Configurações
+        - img "Expandir"
+    - main [ref=e31]:
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - generic [ref=e36]:
+            - heading "Propostas" [active] [level=1] [ref=e37]
+            - paragraph [ref=e38]: Consulte todas as propostas e aceda aos seus detalhes.
+          - button "Filtros" [ref=e40] [cursor=pointer]:
+            - generic [ref=e42]: Filtros
+        - generic [ref=e43]:
+          - table [ref=e46]:
+            - rowgroup [ref=e47]:
+              - row "Data Nº da Proposta Organização CPE Serviço Estado Ações" [ref=e48]:
+                - columnheader "Data" [ref=e49]:
+                  - button "Data" [ref=e50] [cursor=pointer]:
+                    - generic [ref=e51]: Data
+                    - img [ref=e52]
+                - columnheader "Nº da Proposta" [ref=e54]:
+                  - button "Nº da Proposta" [ref=e55] [cursor=pointer]:
+                    - generic [ref=e56]: Nº da Proposta
+                    - img [ref=e57]
+                - columnheader "Organização" [ref=e59]:
+                  - button "Organização" [ref=e60] [cursor=pointer]:
+                    - generic [ref=e61]: Organização
+                    - img [ref=e62]
+                - columnheader "CPE" [ref=e64]:
+                  - button "CPE" [ref=e65] [cursor=pointer]:
+                    - generic [ref=e66]: CPE
+                    - img [ref=e67]
+                - columnheader "Serviço" [ref=e69]:
+                  - button "Serviço" [ref=e70] [cursor=pointer]:
+                    - generic [ref=e71]: Serviço
+                    - img [ref=e72]
+                - columnheader "Estado" [ref=e74]:
+                  - button "Estado" [ref=e75] [cursor=pointer]:
+                    - generic [ref=e76]: Estado
+                    - img [ref=e77]
+                - columnheader "Ações" [ref=e79]:
+                  - generic [ref=e80]: Ações
+            - rowgroup [ref=e81]:
+              - row "21/10/2026 616 Rodrigo Org Sem dados Serviço de Controlo da Qualidade - QA Pendente Aceitação" [ref=e82]:
+                - cell "21/10/2026" [ref=e83]
+                - cell "616" [ref=e84]
+                - cell "Rodrigo Org" [ref=e85]
+                - cell "Sem dados" [ref=e86]
+                - cell "Serviço de Controlo da Qualidade - QA" [ref=e87]
+                - cell "Pendente Aceitação" [ref=e88]:
+                  - generic [ref=e89]: Pendente Aceitação
+                - cell [ref=e90]:
+                  - button [ref=e92]:
+                    - img [ref=e94] [cursor=pointer]
+              - row "21/10/2026 615 Rodrigo Org Sem dados Serviço de Controlo da Qualidade - QA Rejeitado" [ref=e96]:
+                - cell "21/10/2026" [ref=e97]
+                - cell "615" [ref=e98]
+                - cell "Rodrigo Org" [ref=e99]
+                - cell "Sem dados" [ref=e100]
+                - cell "Serviço de Controlo da Qualidade - QA" [ref=e101]
+                - cell "Rejeitado" [ref=e102]:
+                  - generic [ref=e103]: Rejeitado
+                - cell [ref=e104]:
+                  - button [ref=e106]:
+                    - img [ref=e108] [cursor=pointer]
+              - row "21/10/2026 614 Rodrigo Org Sem dados Serviço de Controlo da Qualidade - QA Pendente Aceitação" [ref=e110]:
+                - cell "21/10/2026" [ref=e111]
+                - cell "614" [ref=e112]
+                - cell "Rodrigo Org" [ref=e113]
+                - cell "Sem dados" [ref=e114]
+                - cell "Serviço de Controlo da Qualidade - QA" [ref=e115]
+                - cell "Pendente Aceitação" [ref=e116]:
+                  - generic [ref=e117]: Pendente Aceitação
+                - cell [ref=e118]:
+                  - button [ref=e120]:
+                    - img [ref=e122] [cursor=pointer]
+              - row "21/10/2026 613 Rodrigo Org Sem dados Serviço de Controlo da Qualidade - QA Cancelado" [ref=e124]:
+                - cell "21/10/2026" [ref=e125]
+                - cell "613" [ref=e126]
+                - cell "Rodrigo Org" [ref=e127]
+                - cell "Sem dados" [ref=e128]
+                - cell "Serviço de Controlo da Qualidade - QA" [ref=e129]
+                - cell "Cancelado" [ref=e130]:
+                  - generic [ref=e131]: Cancelado
+                - cell [ref=e132]:
+                  - button [ref=e134]:
+                    - img [ref=e136] [cursor=pointer]
+              - row "21/10/2026 612 Rodrigo Org Sem dados Serviço de Controlo da Qualidade - QA Aceite" [ref=e138]:
+                - cell "21/10/2026" [ref=e139]
+                - cell "612" [ref=e140]
+                - cell "Rodrigo Org" [ref=e141]
+                - cell "Sem dados" [ref=e142]
+                - cell "Serviço de Controlo da Qualidade - QA" [ref=e143]
+                - cell "Aceite" [ref=e144]:
+                  - generic [ref=e145]: Aceite
+                - cell [ref=e146]:
+                  - button [ref=e148]:
+                    - img [ref=e150] [cursor=pointer]
+              - row "20/10/2026 611 Rodrigo Org Sem dados Serviço de Controlo da Qualidade - QA Rascunho" [ref=e152]:
+                - cell "20/10/2026" [ref=e153]
+                - cell "611" [ref=e154]
+                - cell "Rodrigo Org" [ref=e155]
+                - cell "Sem dados" [ref=e156]
+                - cell "Serviço de Controlo da Qualidade - QA" [ref=e157]
+                - cell "Rascunho" [ref=e158]:
+                  - generic [ref=e159]: Rascunho
+                - cell [ref=e160]:
+                  - button [ref=e162]:
+                    - img [ref=e164] [cursor=pointer]
+              - row "20/10/2026 610 Rodrigo Org Sem dados Serviço de Controlo da Qualidade - QA Rascunho" [ref=e166]:
+                - cell "20/10/2026" [ref=e167]
+                - cell "610" [ref=e168]
+                - cell "Rodrigo Org" [ref=e169]
+                - cell "Sem dados" [ref=e170]
+                - cell "Serviço de Controlo da Qualidade - QA" [ref=e171]
+                - cell "Rascunho" [ref=e172]:
+                  - generic [ref=e173]: Rascunho
+                - cell [ref=e174]:
+                  - button [ref=e176]:
+                    - img [ref=e178] [cursor=pointer]
+              - row "20/10/2026 609 Rodrigo Org Sem dados Serviço de Controlo da Qualidade - QA Rascunho" [ref=e180]:
+                - cell "20/10/2026" [ref=e181]
+                - cell "609" [ref=e182]
+                - cell "Rodrigo Org" [ref=e183]
+                - cell "Sem dados" [ref=e184]
+                - cell "Serviço de Controlo da Qualidade - QA" [ref=e185]
+                - cell "Rascunho" [ref=e186]:
+                  - generic [ref=e187]: Rascunho
+                - cell [ref=e188]:
+                  - button [ref=e190]:
+                    - img [ref=e192] [cursor=pointer]
+              - row "20/10/2026 608 Rodrigo Org Sem dados Serviço de Controlo da Qualidade - QA Pendente Aceitação" [ref=e194]:
+                - cell "20/10/2026" [ref=e195]
+                - cell "608" [ref=e196]
+                - cell "Rodrigo Org" [ref=e197]
+                - cell "Sem dados" [ref=e198]
+                - cell "Serviço de Controlo da Qualidade - QA" [ref=e199]
+                - cell "Pendente Aceitação" [ref=e200]:
+                  - generic [ref=e201]: Pendente Aceitação
+                - cell [ref=e202]:
+                  - button [ref=e204]:
+                    - img [ref=e206] [cursor=pointer]
+              - row "20/10/2026 607 Rodrigo Org Sem dados Serviço de Controlo da Qualidade - QA Rejeitado" [ref=e208]:
+                - cell "20/10/2026" [ref=e209]
+                - cell "607" [ref=e210]
+                - cell "Rodrigo Org" [ref=e211]
+                - cell "Sem dados" [ref=e212]
+                - cell "Serviço de Controlo da Qualidade - QA" [ref=e213]
+                - cell "Rejeitado" [ref=e214]:
+                  - generic [ref=e215]: Rejeitado
+                - cell [ref=e216]:
+                  - button [ref=e218]:
+                    - img [ref=e220] [cursor=pointer]
+          - generic [ref=e222]:
+            - generic [ref=e223]:
+              - generic [ref=e226]:
+                - button "Registos por página" [ref=e227] [cursor=pointer]:
+                  - generic [ref=e228]: "10"
+                - combobox [disabled] [ref=e229]
+              - generic [ref=e230]: 1 a 10 de 604 registo(s)
+            - generic [ref=e231]:
+              - button [disabled] [ref=e232]:
+                - img [ref=e233]
+              - button [disabled] [ref=e235]:
+                - img [ref=e236]
+              - button "1" [ref=e238] [cursor=pointer]
+              - button "2" [ref=e239] [cursor=pointer]
+              - generic [ref=e240]: ...
+              - button "61" [ref=e241] [cursor=pointer]
+              - button [ref=e242] [cursor=pointer]:
+                - img [ref=e243]
+              - button [ref=e245] [cursor=pointer]:
+                - img [ref=e246]
+```
